@@ -77,3 +77,20 @@ new_document = "Пример текста для классификации"
 predicted_class = text_classifier.predict(new_document)
 print(f"Класс документа: {predicted_class}")
 ```
+
+### Оценка качества модели на известных документах
+- Accuracy: 81.63%
+- F1: 88.28%
+- Precision: 96.81%
+- Recall: 81.63%
+- Balanced_accuracy: 80.86%
+
+### Оценка качества модели на неизвестных документах
+- Accuracy: 0.80
+- F1: 0.89
+- Precision: 1.00
+- Recall: 0.80
+- Balanced_accuracy: 0.80
+
+
+
